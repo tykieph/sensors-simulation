@@ -57,12 +57,10 @@ public:
 	std::string to_string() const
 	{
 		std::string msg =
-			"Sensor {"
-			" id: " + std::to_string(m_SensorID) +
-			"; type: " + m_Type +
-			" } -> " +
 			"Message {"
-			" value: " + std::to_string(m_Value) +
+			" from: " + std::to_string(m_SensorID) +
+			"; type: " + m_Type +
+			"; value: " + std::to_string(m_Value) +
 			"; quality: " + quality_to_string(m_Quality) +
 			" }";
 
