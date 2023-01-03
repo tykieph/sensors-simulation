@@ -1,0 +1,29 @@
+{
+  "Receivers": [
+    {
+      "ID": 1,
+      "SensorID": 1,
+      "Active": true
+    },
+    {
+      "ID": 2,
+      "SensorID": 2,
+      "Active": true
+    },
+    {
+      "ID": 3,
+      "SensorID": 3,
+      "Active": true
+    },
+    {
+      "ID": 4,
+      "SensorID": 2,
+      "Active": true
+    },
+    {
+      "ID": 5,
+      "SensorID": 1,
+      "Active": false
+    }
+  ]
+}
